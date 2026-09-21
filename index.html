@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home | UI BRANDABLE</title>
+<meta name="description" content="UI BRANDABLE — smart, trendy and useful products for better everyday life.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo-wrap" href="index.html">
+      <img src="assets/logo.jpg" alt="UI BRANDABLE logo">
+      <span class="logo-text">UI BRANDABLE</span>
+    </a>
+    <button class="menu" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+    <nav id="nav">
+      <a class="active" href="index.html">Home</a>
+      <a class="" href="products.html">Products</a>
+      <a class="" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+ <div class="container hero-grid">
+  <div>
+   <div class="kicker"><span></span> TRENDY • USEFUL • EVERYDAY</div>
+   <h1>More Than Just <span class="gradient-text">Products.</span></h1>
+   <p id="heroBio"></p>
+   <div class="buttons">
+    <a class="btn btn-primary" href="products.html">Explore Products →</a>
+    <a class="btn btn-secondary" id="heroWhatsApp" href="#" target="_blank">Order on WhatsApp</a>
+   </div>
+  </div>
+  <div class="hero-card"><img id="heroImage" src="" alt="UI BRANDABLE collection"></div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="container">
+  <div class="section-head">
+   <div class="eyebrow">Why UI BRANDABLE</div>
+   <h2>Smart choices for everyday life.</h2>
+   <p>We focus on products that are practical, useful and worth having — with a clean shopping experience.</p>
+  </div>
+  <div class="features">
+   <div class="feature"><div class="icon">✓</div><h3>Quality Focus</h3><p>Products selected with usefulness and everyday value in mind.</p></div>
+   <div class="feature"><div class="icon">⚡</div><h3>Trendy Finds</h3><p>Discover modern products that fit today's lifestyle.</p></div>
+   <div class="feature"><div class="icon">🚚</div><h3>Easy Ordering</h3><p>Simple ordering through WhatsApp with convenient communication.</p></div>
+   <div class="feature"><div class="icon">♥</div><h3>Customer First</h3><p>Clear information and friendly support before and after your order.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" style="padding-top:0">
+ <div class="container">
+  <div class="about-grid">
+   <div class="card"><div class="eyebrow">About Us</div><h2>Built for better everyday shopping.</h2><p class="muted" id="aboutBio"></p></div>
+   <div class="card"><div class="eyebrow">Shop With Ease</div><h3>Find it. Like it. Order it.</h3><p class="muted">Browse our products, choose what you like and contact us directly on WhatsApp. We keep the process simple and personal.</p><br><a class="btn btn-primary" href="products.html">View Products</a></div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="container footer-inner">
+   <div>© <span id="year"></span> UI BRANDABLE. All rights reserved.</div>
+   <div class="socials"><a href="products.html">Shop Products</a><a href="contact.html">Contact</a></div>
+ </div>
+</footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
