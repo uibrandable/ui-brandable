@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Products | UI BRANDABLE</title>
+<meta name="description" content="UI BRANDABLE — smart, trendy and useful products for better everyday life.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo-wrap" href="index.html">
+      <img src="assets/logo.jpg" alt="UI BRANDABLE logo">
+      <span class="logo-text">UI BRANDABLE</span>
+    </a>
+    <button class="menu" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+    <nav id="nav">
+      <a class="" href="index.html">Home</a>
+      <a class="active" href="products.html">Products</a>
+      <a class="" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="section">
+ <div class="container">
+  <div class="section-head">
+   <div class="eyebrow">Our Collection</div>
+   <h1>Products</h1>
+   <p>Useful, trendy and practical products — selected for better everyday life.</p>
+  </div>
+  <div class="products-grid" id="productsGrid"></div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="container footer-inner">
+   <div>© <span id="year"></span> UI BRANDABLE. All rights reserved.</div>
+   <div class="socials"><a href="products.html">Shop Products</a><a href="contact.html">Contact</a></div>
+ </div>
+</footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
