@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | UI BRANDABLE</title>
+<meta name="description" content="UI BRANDABLE — smart, trendy and useful products for better everyday life.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo-wrap" href="index.html">
+      <img src="assets/logo.jpg" alt="UI BRANDABLE logo">
+      <span class="logo-text">UI BRANDABLE</span>
+    </a>
+    <button class="menu" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+    <nav id="nav">
+      <a class="" href="index.html">Home</a>
+      <a class="" href="products.html">Products</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="section">
+ <div class="container">
+  <div class="section-head">
+   <div class="eyebrow">Get In Touch</div>
+   <h1>Contact <span class="gradient-text">UI BRANDABLE</span></h1>
+   <p>Have a question about a product or want to place an order? Contact us directly.</p>
+  </div>
+  <div class="contact-grid">
+   <div class="card">
+    <h3>WhatsApp Orders</h3>
+    <div class="contact-item"><small>WhatsApp 1</small><a class="btn btn-primary" id="wa1" target="_blank">Chat on WhatsApp</a></div>
+    <div class="contact-item"><small>WhatsApp 2</small><a class="btn btn-secondary" id="wa2" target="_blank">Chat on WhatsApp</a></div>
+   </div>
+   <div class="card">
+    <h3>About UI BRANDABLE</h3>
+    <p class="muted" id="contactBio"></p>
+    <div class="contact-item"><small>Email</small><span id="email"></span></div>
+    <div class="contact-item"><small>Delivery</small><span>Pakistan</span></div>
+   </div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="container footer-inner">
+   <div>© <span id="year"></span> UI BRANDABLE. All rights reserved.</div>
+   <div class="socials"><a href="products.html">Shop Products</a><a href="contact.html">Contact</a></div>
+ </div>
+</footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
